@@ -1,4 +1,4 @@
-# ComboLLM Evaluation (Doppeladler AE)
+# Doppeladler
 
 This repository contains the artifact to reproduce the key results of **Doppeladler: Adaptive Tensor Parallelism for Latency‑Critical LLM Deployment on CPU‑GPU Integrated End‑User Device** (PACT 2025). It provides:
 - A fork of `llama.cpp` with integrated-CPU/GPU co-execution and **OpenCL (CLBlast)** support.
@@ -136,4 +136,4 @@ python experiments/device_performance/INTEL_CoreUltra5/mbenchmark.py
 ## License and Citation
 
 - Code license: see repository/license headers (derivative of `llama.cpp` and ggml components).  
-- If you use this artifact, please cite the PACT 2025 paper.
+- If you use this artifact, please cite the PACT 2025 paper "Doppeladler: Adaptive Tensor Parallelism for Latency‑Critical LLM Deployment on CPU‑GPU Integrated End‑User Device".
